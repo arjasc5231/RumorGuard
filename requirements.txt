@@ -1,0 +1,81 @@
+attrs==23.1.0
+backcall==0.2.0
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+bleach==6.0.0
+brotlipy==0.7.0
+certifi==2020.12.5
+cffi @ file:///tmp/build/80754af9/cffi_1606255099073/work
+chardet @ file:///tmp/build/80754af9/chardet_1605303159953/work
+conda==4.9.2
+conda-build==3.21.4
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1603018138503/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1607635305226/work
+decorator==4.4.2
+defusedxml==0.7.1
+dnspython==2.1.0
+entrypoints==0.4
+fastjsonschema==2.18.0
+filelock==3.0.12
+glob2==0.7
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+importlib-metadata==6.7.0
+importlib-resources==5.12.0
+ipython @ file:///tmp/build/80754af9/ipython_1610725412642/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi @ file:///tmp/build/80754af9/jedi_1606932558467/work
+Jinja2==3.1.2
+jsonschema==4.17.3
+jupyter-client==7.4.9
+jupyter-core==4.12.0
+jupyterlab-pygments==0.2.2
+libarchive-c==2.9
+MarkupSafe==2.1.3
+mistune==3.0.1
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nbclient==0.7.4
+nbconvert==7.6.0
+nbformat==5.8.0
+nest-asyncio==1.5.7
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603479632437/work
+olefile==0.46
+packaging==23.1
+pandocfilters==1.5.0
+parso==0.7.0
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///tmp/build/80754af9/pillow_1609786740831/work
+pkginfo==1.6.1
+pkgutil-resolve-name==1.3.10
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+psutil @ file:///tmp/build/80754af9/psutil_1598370249042/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///tmp/build/80754af9/pygments_1610565767015/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1605545627475/work
+pyrsistent==0.19.3
+PySocks @ file:///tmp/build/80754af9/pysocks_1594394576006/work
+python-dateutil==2.8.2
+python-etcd==0.4.5
+pytz @ file:///tmp/build/80754af9/pytz_1608922264688/work
+PyYAML==5.3.1
+pyzmq==25.1.1
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+ruamel-yaml==0.15.87
+six @ file:///tmp/build/80754af9/six_1605205313296/work
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1607965878077/work
+tinycss2==1.2.1
+torch==1.7.1
+torchelastic==0.2.0
+torchtext==0.8.0a0+0f911ec
+torchvision==0.8.2
+tornado==6.2
+tqdm @ file:///tmp/build/80754af9/tqdm_1605303662894/work
+traitlets==5.9.0
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+zipp==3.15.0
