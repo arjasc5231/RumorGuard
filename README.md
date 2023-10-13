@@ -23,8 +23,8 @@ By the same way, generate a test dataset.
 for example,
 
 ```
-generate_dataset('wiki_indeg', 1000, saving_tag='-1000')  # train dataset
-generate_dataset('wiki_indeg', 50, saving_tag='-50')      # test dataset
+generate_dataset('Extended_train_LP', 1000, saving_tag='-1000')  # train dataset
+generate_dataset('Extended_train_LP', 50, saving_tag='-50')      # test dataset
 ```
 
 ## Training
@@ -45,7 +45,7 @@ train(train_dataset_name, test_dataset_name, hyper_params, saving_name, gpu_num)
 for example,
 
 ```
-train('wiki_indeg-1000.pkl.gz', 'wiki_indeg-50.pkl.gz', saving_name='wiki_2GCN.pt', hyper_params={'lr':0.001, 'lr_gamma':0.9995, 'max_epoch':2000, 'gnn_latent_dim':[128,128]}, gpu_num=0)
+train('Extended_train_LP-1000.pkl.gz', 'Extended_train_LP-50.pkl.gz', saving_name='E_2GCN.pt', hyper_params={'lr':0.001, 'lr_gamma':0.9995, 'max_epoch':2000, 'gnn_latent_dim':[128,128]}, gpu_num=0)
 ```
 
 or you can do the hyperparameter tuning by Optuna:
