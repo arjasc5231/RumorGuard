@@ -89,6 +89,8 @@ alg_name and corresponding **alg_kwargs can be
     - no extra parameter
 - ‘BPM’, ‘MBPM’
     - sampling_num = sampling number of bond percolation method (default=10000)
+- ‘RIS’
+    - eps = error range (default=0.2)
 - ‘greedy’
     - simul_num = number of MC simulation for each step.
 - ‘RumorGuard_G’, ‘RumorGuard_I’
