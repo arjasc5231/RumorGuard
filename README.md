@@ -83,7 +83,7 @@ run rumor blocking (or baseline) algorithms by pipeline function in algorithm_pi
 pipeline(alg_name, dataset_name, del_edge_num, **alg_kwargs):
 ```
 
-alg_name and corresponding **alg_kwargs can be
+`alg_name` and corresponding `**alg_kwargs` can be
 
 - ‘random’, ‘outdegree’, ‘betweenness’, ‘pagerank’, ‘KED’, ‘MDS’
     - no extra parameter
