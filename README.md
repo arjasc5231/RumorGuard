@@ -1,5 +1,6 @@
 # RumorGuard
 
+**NOTE:** For Supplementary material, refer to `supplementary_material.pdf`.
 
 
 ## Requirements
