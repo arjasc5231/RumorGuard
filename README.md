@@ -1,6 +1,4 @@
-# RumorGuard
-
-**NOTE:** For Supplementary material, refer to `supplementary_material.pdf`.
+# DiffIM
 
 
 ## Requirements
@@ -19,8 +17,7 @@ We provide the datasets and GNN models used in the experiment. For convenience, 
 - test graphs : graph_WC_test, graph_CL_test, graph_ET_test
 - train datasets : WC1000, CL1000, ET1000
 - test datasets : WC50, CL50, ET50
-- trained 2-layer GCN models : model_WC_2GCN, model_CL_2GCN, model_ET_2GCN
-- trained 6-layer GCN models : model_WC_6GCN, model_CL_6GCN, model_ET_6GCN
+- trained GCN models (6-layer) : model_WC, model_CL, model_ET
 
 ## Experiments
 
@@ -61,7 +58,7 @@ train(train_dataset_name, test_dataset_name, hyper_params, saving_name, gpu_num)
 for example,
 
 ```
-train(ET1000, ET50, saving_name='ET_2GCN.pt', hyper_params={'lr':0.05, 'lr_gamma':0.995, 'max_epoch':500, 'gnn_latent_dim':[128,128]}, gpu_num=0)
+train(ET1000, ET50, saving_name='ET_2GCN.pt', hyper_params={'lr':0.002, 'lr_gamma':0.999, 'max_epoch':2000, 'gnn_latent_dim':[128,128,128,128,128,128]}, gpu_num=0)
 ```
 
 or you can do the hyperparameter tuning by Optuna:
@@ -94,11 +91,11 @@ pipeline(alg_name, dataset_name, del_edge_num, **alg_kwargs):
     - eps = error range (default=0.2)
 - ‘greedy’
     - simul_num = number of MC simulation for each step.
-- ‘RumorGuard_G’, ‘RumorGuard_I’
+- ‘DiffIM’, ‘DiffIM++’
     - model_name
     - gnn_latent_dim
     - gpu_num
-- ‘RumorGuard_O’
+- ‘DiffIM+’
     - model_name
     - gnn_latent_dim
     - gpu_num
