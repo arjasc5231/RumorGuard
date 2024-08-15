@@ -75,7 +75,7 @@ evaluate_quality(model_name, gnn_latent_dim, train_dataset_name, gpu_num)
 
 ### 3. Evaluation
 
-run rumor blocking (or baseline) algorithms by pipeline function in algorithm_pipeline.ipynb
+run DiffIM (or baseline) algorithms by pipeline function in algorithm_pipeline.ipynb
 
 ```
 pipeline(alg_name, dataset_name, del_edge_num, **alg_kwargs):
